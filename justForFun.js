@@ -70,3 +70,8 @@ dirs.run('LIST')
 dirs.run('DELETE fruits/apples')
 dirs.run('DELETE foods/fruits/apples')
 dirs.run('LIST')
+
+
+const x = setInterval(() => console.log('.'), 500);
+setTimeout(() => clearInterval(x), 5500);  
+setTimeout(() => console.log('THESE ARE NOT THE DROIDS YOU ARE LOOKING FOR'), 6000);
